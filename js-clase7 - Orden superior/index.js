@@ -57,15 +57,16 @@ console.log(resultado)
 /**filter- devuelve todos los elementos que coincidan con la busqueda
  */
 
-/**some 
+/**SOME se fija si alguno cumple con la condicion indicada
  * const = tenemosPelado = empleado.some((empleado) => empleado.bald === true);
  * console.log(tenemosPelado);
 */
 
-/*MAP*/
+/*MAP devuelve un array de los datos modificados que despues puedo utilizarlo*/
 let precioConIva = precios.map((precio) => precio*1.21). filter((precio)=> precio > 500)
 console.log(precioConIva)
 
+/*REDUCE - devuelve un unico valor de todo el array que se reduce*/
 let ventas = [100, 200, 400 ,1975, 5434];
 let total = ventas.reduce((valorAnterior, valorActual)=> valorAnterior+valorActual)
 console.log("hoy ganamos: $" + total + " y cerramos caja positiva")
@@ -75,3 +76,5 @@ console.log("hoy ganamos: $" + total + " y cerramos caja positiva")
 */
 let ordenado = frutas.sort()
 console.log(ordenado)
+
+

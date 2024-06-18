@@ -35,3 +35,8 @@ console.log(simpsons)
  * includes = nos dice si el elemento ingresado existe o no
  * reverse = da vuelta el array 
  *  */
+
+
+//*  ejemplo de clase 11 -> localStore */
+const nombre = localStorage.getItem('nombre');
+console.log('nombre desde otro file' + nombre)
